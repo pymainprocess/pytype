@@ -1,6 +1,11 @@
 [package]
 name = "pytype"
 version = "0.1.0"
+description = "A Python type module for Rust"
+license = "MIT"
+authors = ["Kevin Alexander Krefting <kevin@krefting.com>"]
+
 edition = "2021"
 
 [dependencies]
+pyo3 = "0.22.0"
